@@ -1,0 +1,1431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8835188047530966241
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e813b3382e3b43f4aff3234ab4af08b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: inputCondition
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Emilia.StateMachine.Editor.StateMachineConditionGroup, Emilia.StateMachine.Editor
+    - Name: description
+      Entry: 6
+      Data: 
+    - Name: conditionAssets
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorConditionAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Emilia.StateMachine.Editor.EditorConditionAsset, Emilia.StateMachine.Editor
+    - Name: _conditionAsset
+      Entry: 7
+      Data: 4|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 5|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputCondition
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: 3096b073-0a11-4464-8a30-8428023b4824
+  _outputNodeId: 2219e6ce-5d6d-4e2a-8131-c98ee3813b3d
+  _inputNodeId: ccd53aaf-4b0b-40e4-82ae-9cf1e88c4e5a
+  _outputPortId: Port
+  _inputPortId: Port
+--- !u!114 &-6748257541595235612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e813b3382e3b43f4aff3234ab4af08b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: inputCondition
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputCondition
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Emilia.StateMachine.Editor.StateMachineConditionGroup, Emilia.StateMachine.Editor
+    - Name: description
+      Entry: 6
+      Data: 
+    - Name: conditionAssets
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorConditionAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|Emilia.StateMachine.Editor.EditorConditionAsset, Emilia.StateMachine.Editor
+    - Name: _conditionAsset
+      Entry: 7
+      Data: 5|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 6|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: 33d61416-c903-4f35-97d0-f8b2c2fa6784
+  _outputNodeId: 2219e6ce-5d6d-4e2a-8131-c98ee3813b3d
+  _inputNodeId: 97ca79ee-b587-4d40-8bec-1771907c84cd
+  _outputPortId: Port
+  _inputPortId: Port
+--- !u!114 &-4599246664817652745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38b82f0521b4e289258e75d6fb4a8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: componentGroup
+      Entry: 7
+      Data: 0|Emilia.StateMachine.Editor.EditorStateComponentGroup, Emilia.StateMachine.Editor
+    - Name: componentAssets
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorStateComponentAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Emilia.StateMachine.Editor.EditorStateComponentAsset, Emilia.StateMachine.Editor
+    - Name: _componentAsset
+      Entry: 7
+      Data: 3|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: jump
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: 97ca79ee-b587-4d40-8bec-1771907c84cd
+  _position:
+    serializedVersion: 2
+    x: 618
+    y: 373.00003
+    width: 73
+    height: 68
+  _displayName: 
+  _isFold: 1
+  stateId: 3
+--- !u!114 &-4085174495706361523
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38b82f0521b4e289258e75d6fb4a8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: componentGroup
+      Entry: 7
+      Data: 0|Emilia.StateMachine.Editor.EditorStateComponentGroup, Emilia.StateMachine.Editor
+    - Name: componentAssets
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorStateComponentAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Emilia.StateMachine.Editor.EditorStateComponentAsset, Emilia.StateMachine.Editor
+    - Name: _componentAsset
+      Entry: 7
+      Data: 3|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: idle
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: 2219e6ce-5d6d-4e2a-8131-c98ee3813b3d
+  _position:
+    serializedVersion: 2
+    x: 431.00006
+    y: 305
+    width: 73
+    height: 68
+  _displayName: "\u72B6\u6001\u8282\u70B9"
+  _isFold: 1
+  stateId: 1
+--- !u!114 &-1463190735862756074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70fbed5c197b42f3a630f33f610c44d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+  _id: 35159371-1725-4e15-a667-4b0a8d7e7175
+  _position:
+    serializedVersion: 2
+    x: 289.80002
+    y: 304.75003
+    width: 100
+    height: 100
+  _displayName: 
+  _isFold: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534a82ab37db4abcb1067397c44c585a, type: 3}
+  m_Name: EditorSpineAnimatorAsset
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -1463190735862756074}
+    - {fileID: -4085174495706361523}
+    - {fileID: 3556589942804963957}
+    - {fileID: -4599246664817652745}
+    - {fileID: 999598705781598178}
+    - {fileID: -8835188047530966241}
+    - {fileID: -6748257541595235612}
+    - {fileID: 6407854957058537964}
+    - {fileID: 2581255120440722948}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _parent
+      Entry: 6
+      Data: 
+    - Name: _nodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.Node.Editor.EditorNodeAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _edges
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Emilia.Node.Editor.EditorEdgeAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _items
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Emilia.Node.Editor.EditorItemAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _nodeMap
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Emilia.Node.Editor.EditorNodeAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 35159371-1725-4e15-a667-4b0a8d7e7175
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 2219e6ce-5d6d-4e2a-8131-c98ee3813b3d
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ccd53aaf-4b0b-40e4-82ae-9cf1e88c4e5a
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 97ca79ee-b587-4d40-8bec-1771907c84cd
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _edgeMap
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Emilia.Node.Editor.EditorEdgeAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f05dae-c01a-4dba-ab0d-85312764fbce
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 3096b073-0a11-4464-8a30-8428023b4824
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 33d61416-c903-4f35-97d0-f8b2c2fa6784
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 882b34ae-6a18-426b-bad0-37a76febeeab
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _itemMap
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Emilia.Node.Editor.EditorItemAsset,
+        Emilia.Node.Editor]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: editorParametersManage
+      Entry: 10
+      Data: 8
+    - Name: cache
+      Entry: 7
+      Data: 7|Emilia.StateMachine.StateMachineAsset, Emilia.StateMachine
+    - Name: _id
+      Entry: 1
+      Data: e70c7f35-4782-4b55-baf3-34e454863388
+    - Name: _variablesManage
+      Entry: 7
+      Data: 8|Emilia.Variables.VariablesManage, Emilia.Variable
+    - Name: _variableMap
+      Entry: 7
+      Data: 9|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Emilia.Variables.Variable,
+        Emilia.Variable]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 10|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: a96ebbc5-6a6b-4183-9aa9-f14b71619a6a
+    - Name: $v
+      Entry: 7
+      Data: 11|Emilia.Variables.VarBoolean, Emilia.Variable
+    - Name: m_Value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: $v
+      Entry: 7
+      Data: 12|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _enterStateId
+      Entry: 3
+      Data: -1
+    - Name: _stateAssets
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Emilia.StateMachine.StateAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 14|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+    - Name: _id
+      Entry: 3
+      Data: -1
+    - Name: _transitionAssets
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 16|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+    - Name: _nextId
+      Entry: 3
+      Data: 1
+    - Name: _conditionAssets
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _componentAssets
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+    - Name: _id
+      Entry: 3
+      Data: 1
+    - Name: _transitionAssets
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 21|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+    - Name: _nextId
+      Entry: 3
+      Data: 2
+    - Name: _conditionAssets
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 23|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 24|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _componentAssets
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 26|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: idle
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _transitionAssets
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 29|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+    - Name: _nextId
+      Entry: 3
+      Data: 3
+    - Name: _conditionAssets
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 31|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 32|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _componentAssets
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 34|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: run
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+    - Name: _id
+      Entry: 3
+      Data: 3
+    - Name: _transitionAssets
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 37|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+    - Name: _nextId
+      Entry: 3
+      Data: 1
+    - Name: _conditionAssets
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 39|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 40|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _componentAssets
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+        Emilia.StateMachine]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 42|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: jump
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: e70c7f35-4782-4b55-baf3-34e454863388
+  description: "\u6D4B\u8BD5"
+  skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
+--- !u!114 &999598705781598178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e813b3382e3b43f4aff3234ab4af08b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: inputCondition
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Emilia.StateMachine.Editor.StateMachineConditionGroup, Emilia.StateMachine.Editor
+    - Name: description
+      Entry: 6
+      Data: 
+    - Name: conditionAssets
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorConditionAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputCondition
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: f3f05dae-c01a-4dba-ab0d-85312764fbce
+  _outputNodeId: 35159371-1725-4e15-a667-4b0a8d7e7175
+  _inputNodeId: 2219e6ce-5d6d-4e2a-8131-c98ee3813b3d
+  _outputPortId: Port
+  _inputPortId: Port
+--- !u!114 &2581255120440722948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae6a425e7084945854870147d853e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: parameters
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.Node.Universal.Editor.EditorParameter,
+        Emilia.Node.Universal.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Emilia.Node.Universal.Editor.EditorParameter, Emilia.Node.Universal.Editor
+    - Name: key
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: description
+      Entry: 1
+      Data: A
+    - Name: value
+      Entry: 7
+      Data: 2|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &3556589942804963957
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38b82f0521b4e289258e75d6fb4a8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: componentGroup
+      Entry: 7
+      Data: 0|Emilia.StateMachine.Editor.EditorStateComponentGroup, Emilia.StateMachine.Editor
+    - Name: componentAssets
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorStateComponentAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Emilia.StateMachine.Editor.EditorStateComponentAsset, Emilia.StateMachine.Editor
+    - Name: _componentAsset
+      Entry: 7
+      Data: 3|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+    - Name: _id
+      Entry: 6
+      Data: 
+    - Name: animationName
+      Entry: 1
+      Data: run
+    - Name: trackIndex
+      Entry: 3
+      Data: 0
+    - Name: isLoop
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: ccd53aaf-4b0b-40e4-82ae-9cf1e88c4e5a
+  _position:
+    serializedVersion: 2
+    x: 617.9999
+    y: 236.99995
+    width: 73
+    height: 68
+  _displayName: 
+  _isFold: 1
+  stateId: 2
+--- !u!114 &6407854957058537964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e813b3382e3b43f4aff3234ab4af08b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _userData
+      Entry: 6
+      Data: 
+    - Name: inputCondition
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Emilia.StateMachine.Editor.StateMachineConditionGroup, Emilia.StateMachine.Editor
+    - Name: description
+      Entry: 6
+      Data: 
+    - Name: conditionAssets
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.EditorConditionAsset,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Emilia.StateMachine.Editor.EditorConditionAsset, Emilia.StateMachine.Editor
+    - Name: _conditionAsset
+      Entry: 7
+      Data: 4|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+    - Name: leftKey
+      Entry: 1
+      Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
+    - Name: compareOperator
+      Entry: 3
+      Data: 0
+    - Name: useDefine
+      Entry: 5
+      Data: true
+    - Name: rightDefineValue
+      Entry: 7
+      Data: 5|Emilia.Variables.VarInt16, Emilia.Variable
+    - Name: m_Value
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rightKey
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputCondition
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Emilia.StateMachine.Editor.StateMachineConditionGroup,
+        Emilia.StateMachine.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _id: 882b34ae-6a18-426b-bad0-37a76febeeab
+  _outputNodeId: ccd53aaf-4b0b-40e4-82ae-9cf1e88c4e5a
+  _inputNodeId: 97ca79ee-b587-4d40-8bec-1771907c84cd
+  _outputPortId: Port
+  _inputPortId: Port
