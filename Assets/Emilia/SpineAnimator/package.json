@@ -1,0 +1,10 @@
+{
+  "name": "com.emilia.spineanimator",
+  "displayName": "Emilia.SpineAnimator",
+  "description": "Emilia.SpineAnimator",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

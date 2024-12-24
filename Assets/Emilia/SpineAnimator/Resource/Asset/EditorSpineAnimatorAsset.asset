@@ -61,8 +61,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 5|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 5|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 1
     - Name: 
@@ -184,8 +184,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 6|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 6|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 0
     - Name: 
@@ -660,6 +660,9 @@ MonoBehaviour:
     - Name: _id
       Entry: 1
       Data: e70c7f35-4782-4b55-baf3-34e454863388
+    - Name: _description
+      Entry: 1
+      Data: "\u6D4B\u8BD5"
     - Name: _variablesManage
       Entry: 7
       Data: 8|Emilia.Variables.VariablesManage, Emilia.Variable
@@ -676,25 +679,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: a96ebbc5-6a6b-4183-9aa9-f14b71619a6a
-    - Name: $v
-      Entry: 7
-      Data: 11|Emilia.Variables.VarBoolean, Emilia.Variable
-    - Name: m_Value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: 1
     - Name: 
       Entry: 7
       Data: 
@@ -703,8 +688,8 @@ MonoBehaviour:
       Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
     - Name: $v
       Entry: 7
-      Data: 12|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 11|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 0
     - Name: 
@@ -727,33 +712,33 @@ MonoBehaviour:
       Data: -1
     - Name: _stateAssets
       Entry: 7
-      Data: 13|System.Collections.Generic.List`1[[Emilia.StateMachine.StateAsset,
+      Data: 12|System.Collections.Generic.List`1[[Emilia.StateMachine.StateAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
     - Name: 
       Entry: 7
-      Data: 14|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+      Data: 13|Emilia.StateMachine.StateAsset, Emilia.StateMachine
     - Name: _id
       Entry: 3
       Data: -1
     - Name: _transitionAssets
       Entry: 7
-      Data: 15|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+      Data: 14|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 16|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+      Data: 15|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
     - Name: _nextId
       Entry: 3
       Data: 1
     - Name: _conditionAssets
       Entry: 7
-      Data: 17|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+      Data: 16|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
@@ -775,7 +760,7 @@ MonoBehaviour:
       Data: 
     - Name: _componentAssets
       Entry: 7
-      Data: 18|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+      Data: 17|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
@@ -791,33 +776,33 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 19|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+      Data: 18|Emilia.StateMachine.StateAsset, Emilia.StateMachine
     - Name: _id
       Entry: 3
       Data: 1
     - Name: _transitionAssets
       Entry: 7
-      Data: 20|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+      Data: 19|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 21|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+      Data: 20|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
     - Name: _nextId
       Entry: 3
       Data: 2
     - Name: _conditionAssets
       Entry: 7
-      Data: 22|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+      Data: 21|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 23|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+      Data: 22|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
     - Name: leftKey
       Entry: 1
       Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
@@ -829,8 +814,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 24|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 23|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 1
     - Name: 
@@ -859,14 +844,14 @@ MonoBehaviour:
       Data: 
     - Name: _componentAssets
       Entry: 7
-      Data: 25|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+      Data: 24|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 26|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+      Data: 25|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
     - Name: _id
       Entry: 6
       Data: 
@@ -893,33 +878,33 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 27|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+      Data: 26|Emilia.StateMachine.StateAsset, Emilia.StateMachine
     - Name: _id
       Entry: 3
       Data: 2
     - Name: _transitionAssets
       Entry: 7
-      Data: 28|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+      Data: 27|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 29|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+      Data: 28|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
     - Name: _nextId
       Entry: 3
       Data: 3
     - Name: _conditionAssets
       Entry: 7
-      Data: 30|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+      Data: 29|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 31|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+      Data: 30|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
     - Name: leftKey
       Entry: 1
       Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
@@ -931,8 +916,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 32|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 31|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 2
     - Name: 
@@ -961,14 +946,14 @@ MonoBehaviour:
       Data: 
     - Name: _componentAssets
       Entry: 7
-      Data: 33|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+      Data: 32|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 34|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+      Data: 33|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
     - Name: _id
       Entry: 6
       Data: 
@@ -995,33 +980,33 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 35|Emilia.StateMachine.StateAsset, Emilia.StateMachine
+      Data: 34|Emilia.StateMachine.StateAsset, Emilia.StateMachine
     - Name: _id
       Entry: 3
       Data: 3
     - Name: _transitionAssets
       Entry: 7
-      Data: 36|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
+      Data: 35|System.Collections.Generic.List`1[[Emilia.StateMachine.TransitionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 37|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
+      Data: 36|Emilia.StateMachine.TransitionAsset, Emilia.StateMachine
     - Name: _nextId
       Entry: 3
       Data: 1
     - Name: _conditionAssets
       Entry: 7
-      Data: 38|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
+      Data: 37|System.Collections.Generic.List`1[[Emilia.StateMachine.IConditionAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 39|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
+      Data: 38|Emilia.StateMachine.VariableCompareConditionAsset, Emilia.StateMachine
     - Name: leftKey
       Entry: 1
       Data: fee86eff-ee4b-4cc6-acf0-c1f0d580e65e
@@ -1033,8 +1018,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 40|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 39|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 0
     - Name: 
@@ -1063,14 +1048,14 @@ MonoBehaviour:
       Data: 
     - Name: _componentAssets
       Entry: 7
-      Data: 41|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
+      Data: 40|System.Collections.Generic.List`1[[Emilia.StateMachine.IStateComponentAsset,
         Emilia.StateMachine]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 42|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
+      Data: 41|Emilia.SpineAnimator.PlayAnimationComponentAsset, Emilia.SpineAnimator
     - Name: _id
       Entry: 6
       Data: 
@@ -1226,8 +1211,8 @@ MonoBehaviour:
       Data: A
     - Name: value
       Entry: 7
-      Data: 2|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 2|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 0
     - Name: 
@@ -1380,8 +1365,8 @@ MonoBehaviour:
       Data: true
     - Name: rightDefineValue
       Entry: 7
-      Data: 5|Emilia.Variables.VarInt16, Emilia.Variable
-    - Name: m_Value
+      Data: 5|Emilia.Variables.VariableInt32, Emilia.Variable
+    - Name: _value
       Entry: 3
       Data: 2
     - Name: 
