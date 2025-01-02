@@ -12,14 +12,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "35db9fb958b2cecc2cc843c8aa0b6a7edb997ae7"
+      "hash": "1d6f0ab41c3fad2941cb31dcf0d7502c8c35b34f"
     },
     "com.emilia.statemachine": {
       "version": "https://github.com/CCEMT/Emilia-StateMachine.git?path=Assets/Emilia/StateMachine",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "bc8b67d260f47bec53d6b8cf541ef61445d8da26"
+      "hash": "12532fa99c89601531d85bf80f4fc72dd7c0747b"
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
